@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="css\style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+<link rel="stylesheet" href="css\plugins.min.css" type="text/css" media="screen">
+<script src="js\plugins.min.js"></script>
+<script src="js\main.js"></script>
+<link rel="icon" href="./images/favicon.ico">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El mundo del marketing digital es vasto y está creciendo. Con la aparición de nuevas tecnologías, puede ser difícil saber por dónde empezar. Este artículo lo ayudará a comprender los conceptos básicos de esta industria en constante cambio.">
+
+
+<div id="blog-header" style="background: url(images/blogs/Makreting.jpg); background-size: cover;">
+    <div class="overlay"></div>
+    <div class="single-post-title">
+        <h1>Empieza en el mundo del freelance</h1>
+        <p class="post-info">
+            <span class="post-author">Post por David San Jose</span>
+            <span class="slash"></span>
+            <span class="post-date">Dec 10, 2022</span>
+            <span class="slash"></span>
+            <span class="post-catetory">Marketing</span>
+        </p>
+    </div>
+</div>
+<div class="block-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="single-post">
+                <div class="post">
+                    <div style="padding-left: 35px;padding-right: 35px;" class="post-body">
+                        
+                        <p>El Marketing Digital es un área que está en continuo crecimiento y cuya especialización se está revalorizando en el mercado profesional, por lo que muchos se plantean empezar a trabajar en Marketing Digital hoy en día.</p>
+                        <p>Es un puesto con oportunidades a largo plazo, <b>buenos salarios y ofrece un gran abanico de posibilidades de crecimiento</b> .Pero, ¿cómo es trabajar en marketing digital?</p>
+                        <h2>¿Qué debo saber para trabajar en Marketing Digital?</h2>
+                        <p>Un perfil de Marketing Digital debe conocer y manejar las herramientas disponibles para poder aplicar acciones concretas a favor de los objetivos fijados, optimizar campañas para lograr mejores resultados, analizar la información y ajustar los gastos.</p>
+                        <p>Por eso, es fundamental para un profesional en Marketing Digital desarrollar la capacidad analítica y estratégica. A continuación, te menciono las principales habilidades que debe contar este perfil.</p>
+                        <div style="padding-left: 50px; font-size: 30px;">
+                            <li>SEO:
+                                <p><i>Search Engine Optimization</i>, el pilar más importante a la hora de empezar en marketing digital, Google sigue <b>siendo el gran dominador en lo que respecta al tráfico web</b> y, por lo tanto, el desarrollo de estrategias de posicionamiento web es clave</p>
+                            </li>
+                            <li>SEM:
+                                <p>La publicidad en motores de búsqueda como Google es una de las herramientas con las que un profesional en Marketing Digital <b> puede consolidar el éxito de una empresa</b>.</p>
+                            </li>
+                            <li>Social Media
+                                <p>Son la plataforma perfecta para encontrar a nuestro público objetivo. Un perfil de Marketing Digital debe <b>dominar tanto el trabajo de Social Media Management</b></p>
+                            </li>
+                            <img style="width:800; height: 400;" src="./images/blogs/market 2.jpg" alt="">                           
+                        </div>
+                        <br>
+                        <p>A continuación, te muestro 5 consejos para que puedas empezar hoy mismo &#128513;</p>
+                        <div style="font-size: 30px;">
+                            <ul>
+                                1. Fija tus objetivos 🎯
+                                <p style="padding-top: 10px;">Decide si quieres trabajar en una <b>agencia, empresa o como freelance en Marketing Digital</b> y qué puesto te gustaría ejercer, el de especialista en SEO, SEM, copywriter, entre otros, ya que hay una gran variedad entre los que escoger.</p>
+                            </ul>
+                            <ul>
+                                2. Formate 📚
+                                <p style="padding-top: 10px;">En Marketing Digital <b>nunca se deja de aprender</b>. Es una profesión que avanza a gran velocidad y hay que estar al día en el manejo de herramientas y tendencias del sector.</p>
+                            </ul>
+                            <ul>
+                                3. Usa las redes sociales 📣
+                                <p style="padding-top: 10px;">Si te vas a dedicar a este mundo, tener perfiles en distintas redes sociales (Facebook, Twitter, LinkedIn, Instagram) es una manera de que <b>las empresas vean como te desenvuelves en esos entornos</b>. </p>
+                            </ul>
+                            <ul>
+                                4. Crea tu web 💻
+                                <p style="padding-top: 10px;">Al crear tu propia web estás creando un <b>laboratorio donde puedes probar y aprender diferentes estrategias de marketing</b>. Podrás experimentar a tu antojo sin tener que preocuparte de que puedas estropear el sitio web de otra persona.</p>
+                            </ul>
+                            <ul>
+                                5. Haz proyectos 👩‍💻
+                                <p style="padding-top: 10px;">Una buena manera de iniciarte en este sector es hacer trabajos para conocidos,amigos y/o familiares. </p>
+                            </ul>
+                        </div>
+                        <img src="./images/blogs/seo.jpg" style="width:800; height: 400;" alt="">                                       
+                    </div>                    
+                    <div class="project-nav text-center">
+                        <span class="float-left">
+                            <a class="open-project" href="#">&leftarrow; Anterior Articulo</a>
+                        </span>
+                        <span class="">
+                            <a id="close-project" href="index.html"><i class="ion-gri">Volver al Inicio 😎 </i></a>
+                        </span>
+                                        <span class="float-right">
+                            <a class="open-project" href="#">Siguiente Articulo &rightarrow; </a>
+                        </span>
+                    </div>                               
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$('.open-post').on('click', function() {
+    var postUrl = $(this).attr("href");
+    $('.inline-menu-container').removeClass('showx');
+    $('.content-blocks.pop').addClass('showx');
+    $('.content-blocks.pop section').load(postUrl)
+    return false;
+});
+$('#close-post').on('click', function() {
+    $('.content-blocks.pop').removeClass('showx');
+    $('.inline-menu-container').addClass('showx');
+    $('.content-blocks.pop section').empty();
+});
+</script>

@@ -1,0 +1,40 @@
+<div class="load-data">
+    <div class="block-content">
+        <div class="project-head">
+            <h1 class="block-title">Proyecto - Detalles</h1>
+            <div class="tags"><span>Categoría : </span> Ecommerce</div>
+            <div class="tags"><span>Cliente : </span> MariaJesus</div>
+        </div>
+        <p class="project-description">El objetivo de esta web , era la creación de una tienda online enfocada en cliente de mediana edad con varios tipos de productos y variaciones</p>
+        <div class="project-media row">
+            <div class="col-md-6">
+                <img src="images\portfolio/Mariajesus.png" alt="Mariajesus">
+            </div>
+           
+        </div>
+        <div class="project-nav text-center">
+            <span class="float-left">
+                <a class="open-project" href="innoverid.html">&leftarrow; Anterior Proyecto</a>
+            </span>
+            <span class="">
+                <a id="close-project" href="#"><i class="ion-grid"></i></a>
+            </span>
+            <span class="float-right">
+                <a class="open-project" href="aptcfm.html">Siguiente proyecto &rightarrow; </a>
+            </span>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12 btn-email">
+            <a class="btn lowercase">Davrdguez@outlook.com</a>
+        </div>
+    </div>
+
+    <script>
+        $('#close-project').on('click', function() {
+            $('.content-blocks.pop').removeClass('showx');
+            $('.inline-menu-container').addClass('showx');
+            $('.content-blocks.pop section').empty();
+        });
+    </script>
+</div>
